@@ -38,3 +38,10 @@ img{
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (min-width:576px) and (max-width:900px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+}
